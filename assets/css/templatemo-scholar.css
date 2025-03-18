@@ -782,11 +782,11 @@ Banner Style
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 100px 0px 0px 0px;
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner1.png);
+  background-image: url(../images/banner1.jpg);
 }
 
 .main-banner .item-2 {
@@ -802,8 +802,9 @@ Banner Style
   background-position: center center;
   background-size: cover;
   border-radius: 25px;
-  padding: 100px 100px;
-  margin-left: 130px;
+  padding: 50px 100px;
+  margin-left: 0px;
+  height: 50vh;
 }
 
 .main-banner .item span.category {
@@ -811,10 +812,10 @@ Banner Style
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 5px 10px;
   border-radius: 20px;
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .main-banner .item h2 {
@@ -823,7 +824,7 @@ Banner Style
   color: #fff;
   line-height: 70px;
   width: 100%;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .main-banner .item p {
@@ -2606,7 +2607,7 @@ body {
   }
 
   .main-banner .item {
-    padding: 80px 30px 120px 30px !important;
+    padding: 35px 30px 120px 30px !important;
   }
 
   .main-banner .owl-nav {
@@ -2655,8 +2656,8 @@ body {
   }
 
   .main-banner .item h2 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 32px;
   }
 
   .main-banner .item .buttons {
