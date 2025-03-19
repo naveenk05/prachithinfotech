@@ -284,12 +284,12 @@ https://templatemo.com/tm-586-scholar
               great opportunity for aspiring professionals.</p>
             <div class="stats">
               <div class="stat-box" style="text-align: left;">
-                <h6>📈 High Demand</h6>
-                <p>85% of industries require embedded system expertise.</p>
+                <h6 style="color: #fff;">📈 High Demand</h6>
+                <p style="color: #d9d9d9;">85% of industries require embedded system expertise.</p>
               </div>
               <div class="stat-box" style="text-align: left;">
-                <h6>⚠️ Skill Gap</h6>
-                <p>Only 30% of engineers have industry-ready embedded skills.</p>
+                <h6 style="color: #fff;">⚠️ Skill Gap</h6>
+                <p style="color: #d9d9d9;">Only 30% of engineers have industry-ready embedded skills.</p>
               </div>
             </div>
             <!-- <a href="#" class="cta-button">Bridge the Gap</a> -->
@@ -611,7 +611,7 @@ https://templatemo.com/tm-586-scholar
     </div>
   </section>
 
-  <div class="section fun-facts">
+  <!-- <div class="section fun-facts">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -646,9 +646,9 @@ https://templatemo.com/tm-586-scholar
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="team section" id="team">
+  <!-- <div class="team section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -709,56 +709,72 @@ https://templatemo.com/tm-586-scholar
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="section testimonials">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <div class="owl-carousel owl-testimonials">
-            <div class="item">
-              <h2 style="color: #fff;">Learning Experience!</h2>
-              <p>This course provided me with hands-on experience and deep knowledge of embedded systems. I landed my
-                dream job as an Embedded Engineer at a top tech company!"</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">Embedded Engineer</span>
-                <h4>—Rajesh K</h4>
-              </div>
-            </div>
-            <div class="item">
-              <h2 style="color: #fff;">Industry-Relevant and Practical!</h2>
-              <p>"The training was well-structured, covering real-world applications. The projects helped me gain
-                confidence, and I secured a job within weeks of completion!"</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">Firmware Developer</span>
-                <h4>—Priya S</h4>
-              </div>
-            </div>
-            <div class="item">
-              <h2 style="color: #fff;">From Beginner to Professional!</h2>
-              <p>I started with zero knowledge of embedded systems, but this course gave me everything I needed. Now, I
-                work on real-time embedded projects in a leading company!"</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">Embedded Software Devloper</span>
-                <h4>—Amit P</h4>
-              </div>
+
+  <section class="section">
+    <div class="section-heading text-center">
+      <h6 class="">STUDENT TESTIMONIALS</h6>
+      <h2 class="">Real Experiences, Real Success Stories</h2>
+    </div>
+
+
+    <div class="slider-container">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+
+      <div class="slider">
+        <div class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <h3 class="tm_heading">"Highly Practical & Well-Structured!"</h3>
+          <p class="testimonial-text">"The course provided hands-on experience with real-world applications. The
+            instructor explained concepts clearly, making it easy to understand embedded systems."</p>
+          <div class="author">
+            <img src="./assets/images/profile1.png" alt="Amit R">
+            <div>
+              <h4 class="tm_heading">Amit R</h4>
+              <p>Engineering Student</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-5 align-self-center">
-          <div class="section-heading">
-            <h6>TESTIMONIALS</h6>
-            <h2>Hear from Our Successful Learners</h2>
-            <p>Our students have transformed their careers with our expert-led embedded systems training. See what they
-              have to say!</p>
+
+        <div class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <h3 class="tm_heading">"Best Learning Experience!"</h3>
+          <p class="testimonial-text">"The RTOS and IoT modules were particularly insightful. The structured path and
+            support made it a fantastic experience."</p>
+          <div class="author">
+            <img src="./assets/images/profile2.png" alt="Naveen">
+            <div>
+              <h4 class="tm_heading">Naveen</h4>
+              <p>IoT Developer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="stars">★★★★☆</p>
+          <h3 class="tm_heading">"Helped in Career Growth!"</h3>
+          <p class="testimonial-text">"The mentorship helped me transition from theory to practical implementation. The
+            learnings were invaluable for my job interviews."</p>
+          <div class="author">
+            <img src="./assets/images/profile3.png" alt="Megan">
+            <div>
+              <h4 class="tm_heading">Megan</h4>
+              <p>Software Developer</p>
+            </div>
           </div>
         </div>
       </div>
+
+      <button class="next" onclick="nextSlide()">&#10095;</button>
     </div>
-  </div>
+
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
 
   <div class="certificate-section">
     <h2>Our Certified Achievers</h2>
@@ -946,13 +962,15 @@ https://templatemo.com/tm-586-scholar
           <img style="width: 30%; margin-bottom: 30px;" src="./assets/images/prathilogofinal.png" alt=""><br>
           <p class="alignment" style="font-size: 15px; font-weight: bolder; color:#7A6AD8">
             Empowering innovation through knowledge and technology.</p>
-            <p class="alignment">Prachith Infotech is dedicated to nurturing young minds through hands-on training in electronics, robotics, and computer technology. Our mission is to inspire innovation and equip students with essential STEM skills for a brighter future.</p>
+          <p class="alignment">Prachith Infotech is dedicated to nurturing young minds through hands-on training in
+            electronics, robotics, and computer technology. Our mission is to inspire innovation and equip students with
+            essential STEM skills for a brighter future.</p>
         </div>
 
         <div class="col-xs-6 col-md-4 col-lg-3">
           <h6>Address</h6>
           <ul class="footer-links">
-            
+
             <li>Location: hosur, Lal Playground</li>
             <li>Email: info@prachithinfotech.com</li>
             <li>contact: +91 94420 70621</li>
@@ -1003,6 +1021,42 @@ https://templatemo.com/tm-586-scholar
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="/assets/js/testimonial.js"></script>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.testimonial-card');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = slides.length;
+
+    function updateSlide() {
+      document.querySelector('.slider').style.transform = `translateX(-${currentIndex * 100}%)`;
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateSlide();
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateSlide();
+    }
+
+    function currentSlide(index) {
+      currentIndex = index;
+      updateSlide();
+    }
+
+    // Auto-scroll every 5 seconds
+    setInterval(nextSlide, 10000);
+
+    updateSlide();
+  </script>
+
 
   <script>
     // form open modal
@@ -1013,84 +1067,7 @@ https://templatemo.com/tm-586-scholar
       document.getElementById('enrollmentModal').style.display = 'none';
     }
 
-    // form submit function
-    // document.getElementById("#enrollmentForm").addEventListener("submit", function (event) {
-    //   event.preventDefault();
-
-    //   let formdata = {
-    //     name: document.querySelector("[name='name']").value,
-    //     email: document.querySelector("[name='email']").value,
-    //     phone: document.querySelector("[name='phone']").value,
-    //     course: document.querySelector("[name='course']").value,
-    //     batch: document.querySelector("[name='batch']").value
-    //   };
-    //   fetch("https://formspree.io/f/mbldkvnb", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "appliaction/json"
-    //     },
-    //     body: JSON.stringify(formData)
-    //   })
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       document.getElementById("responseMessage").innerText = "Success! Your enrollment has been submitted.";
-    //     })
-    //     .catch(error => {
-    //       document.getElementById("responseMessage").innerText = "Error submitting form. Please try again.";
-    //     });
-    // });
-
   </script>
-
-  <!-- Form submission -->
-  <!-- <script>
-    document.getElementById("enrollmentForm").addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent default form submission
-      let form = this;
-
-      fetch(form.action, {
-        method: "POST",
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      }).then(response => {
-        if (response.ok) {
-          document.getElementById("response-message").style.display = "block";
-          form.reset();
-        } else {
-          alert("Error submitting form. Please try again.");
-        }
-      }).catch(error => {
-        alert("Something went wrong.");
-      });
-    });
-
-  </script> -->
-
-  <!-- form submission  -->
-  <!-- <script>
-    document.querySelector("form").addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent default submission
-      let form = this;
-
-      fetch(form.action, {
-        method: "POST",
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      }).then(response => response.json()).then(data => {
-        console.log(data); // Debugging: Check Formspree response
-        if (data.ok) {
-          alert("Form submitted successfully!");
-          form.reset();
-        } else {
-          alert("Form submission error: " + JSON.stringify(data));
-        }
-      }).catch(error => {
-        alert("Something went wrong: " + error);
-      });
-    });
-  </script> -->
-
-
 
   <!-- jQuery (Required for Owl Carousel) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

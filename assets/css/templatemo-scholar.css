@@ -2035,6 +2035,168 @@ Contact Style
   font-weight: 400;
 }
 
+/* 
+---------------------------------------------
+Testimonials
+---------------------------------------------
+ */
+ /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Section Styling */
+.testimonials {
+  /* background: #0c0c0f; */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.main-title {
+  font-size: 24px;
+  margin: 15px 0 40px;
+}
+
+.tm_heading{
+  color: #fff;
+}
+
+/* Slider Container */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Testimonial Cards */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Allows smooth sliding */
+}
+
+.testimonial-card {
+  min-width: 100%;
+  background: #7a6ad8;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.stars {
+  font-size: 20px;
+  color: #ffd700;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d3d3d3;
+  white-space: pre-line;
+}
+
+/* Author Section */
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.prev:hover, .next:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.prev {
+  left: -40px;
+}
+
+.next {
+  right: -40px;
+}
+
+/* Dots for Navigation */
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #7A6AD8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-card {
+      padding: 20px;
+  }
+  .slider-container {
+    max-width: 90%;
+}
+
+
+  .prev, .next {
+      font-size: 18px;
+      padding: 8px;
+  }
+}
+
+
 
 /*
 ---------------------------------------------
@@ -2231,7 +2393,7 @@ h2 {
 p {
   font-size: 14px;
   line-height: 28px;
-  color: #666;
+  color: #d9d9d9;
   margin-bottom: 20px;
 }
 
@@ -2385,7 +2547,7 @@ Demand and skill gap
 
 .stat-box {
   flex: 1;
-  background: #fff;
+  background:  linear-gradient(135deg, #12459A, #D10FD4);;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
