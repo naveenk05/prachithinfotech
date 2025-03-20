@@ -2409,7 +2409,7 @@ p {
 }
 
 .logo-grid img {
-  max-width: 120px;
+  max-width: 200px;
   height: auto;
   opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
