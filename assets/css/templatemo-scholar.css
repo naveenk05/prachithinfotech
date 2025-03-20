@@ -200,7 +200,7 @@ body {
 
 .section {
   padding-top: 30px;
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 .section-heading {
@@ -1258,7 +1258,7 @@ Achivers Certifiacte
 .certificate-section {
   max-width: 1200px;
   margin: auto;
-  padding: 100px 20px;
+  padding: 0px 20px;
   text-align: center;
 }
 
@@ -1288,14 +1288,15 @@ Achivers Certifiacte
 }
 
 .scroll-content {
-  display: flex;
+  /* display: flex; */
   gap: 15px;
   animation: scrollLeft 15s linear infinite;
+  width: 100%;
 }
 
 .scroll-content img {
-  width: 250px; /* Adjust size as needed */
-  height: auto;
+  width: 50%; /* Adjust size as needed */
+  height: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -1308,7 +1309,8 @@ Achivers Certifiacte
 /* Responsive */
 @media (max-width: 768px) {
   .scroll-content img {
-      width: 180px;
+      width: 80%; /* Adjust size as needed */
+      height: 100%;
   }
 }
 
@@ -1799,7 +1801,7 @@ Contact Style
 */
 
 .contact-us {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   position: relative;
   padding: 50px 0px;
 }
@@ -2897,7 +2899,7 @@ body {
   }
 
   .courses {
-    margin-top: 100px;
+    margin-top: 0px;
   }
 
   .event_filter ul li {
@@ -2928,7 +2930,7 @@ body {
 
   .testimonials .section-heading {
     margin-left: 0px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   .testimonials .item {
