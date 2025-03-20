@@ -2141,6 +2141,7 @@ h3 {
   font-size: 24px;
   cursor: pointer;
   padding: 10px;
+  margin-right: 50px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2639,11 +2640,14 @@ Embedded scope
 */
 /* Embedded Systems Scope Section */
 .embedded-scope {
-  background: url(../images/futurebanner.png);
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-  animation: fadeIn 1.5s ease-in-out;
+  background: url(../images/futurebanner.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+    background-position: center;
 }
 
 /* Heading Styling */
