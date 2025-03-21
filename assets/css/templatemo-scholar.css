@@ -2229,12 +2229,16 @@ h3 {
  {
    margin:20px 0
  }
+ .site-footer-gap{
+  gap: 5%;
+ }
  .site-footer h6
  {
    color:#fff;
    font-size:16px;
    text-transform:uppercase;
    margin-top:5px;
+   margin-bottom: 30px;
    letter-spacing:2px
  }
  .site-footer a
@@ -2295,6 +2299,16 @@ h3 {
  }
  @media (max-width:767px)
  {
+
+  .site-footer h6
+ {
+   color:#fff;
+   font-size:16px;
+   text-transform:uppercase;
+   margin-top:5px;
+   margin-bottom: 5px;
+   letter-spacing:2px
+ }
    .site-footer
    {
      padding-bottom:0
@@ -2496,6 +2510,7 @@ Market growth
   .market-growth {
     flex-direction: column;
     text-align: center;
+    padding: 60px 4%;
   }
 
   .content,
